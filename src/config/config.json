@@ -1,0 +1,6 @@
+{
+  "serverConfig": {
+    "hots": "localhost",
+    "port": 3000
+  }
+}

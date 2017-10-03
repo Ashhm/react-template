@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    font-size: 14px;
+    box-sizing: content-box;
+}

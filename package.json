@@ -1,0 +1,47 @@
+{
+  "name": "react-flux-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --hot --inline",
+    "build": "webpack",
+    "dist": "NODE_ENV=production webpack -p"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "autoprefixer": "*",
+    "react": "*",
+    "react-dom": "*",
+    "flux": "*",
+    "events": "*",
+    "keymirror": "*",
+    "less": "*",
+    "superagent": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-polyfill": "*",
+    "babel-preset-react": "*",
+    "babel-preset-env": "*",
+    "babel-loader": "*",
+    "style-loader": "*",
+    "css-loader": "*",
+    "autoprefixer-loader": "*",
+    "less-loader": "*",
+    "json-loader": "*",
+    "file-loader": "*",
+    "url-loader": "*",
+    "react-loader": "*",
+    "react-hot-loader": "*",
+    "webpack": "*",
+    "html-webpack-plugin": "*",
+    "webpack-dev-server": "*"
+  }
+}
