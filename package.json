@@ -1,5 +1,5 @@
 {
-  "name": "react-flux-boilerplate",
+  "name": "react-boilerplate-with-router",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,18 +11,18 @@
   "babel": {
     "presets": [
       "env",
-      "react"
+      "react",
+      "stage-0"
     ]
   },
   "dependencies": {
     "autoprefixer": "*",
     "react": "*",
     "react-dom": "*",
-    "flux": "*",
-    "events": "*",
-    "keymirror": "*",
     "less": "*",
-    "superagent": "*"
+    "superagent": "*",
+    "react-router-dom": "*",
+    "prop-types": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -30,6 +30,7 @@
     "babel-polyfill": "*",
     "babel-preset-react": "*",
     "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
     "babel-loader": "*",
     "style-loader": "*",
     "css-loader": "*",
